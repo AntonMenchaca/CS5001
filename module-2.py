@@ -1,5 +1,5 @@
 ### MODULE 2 ###
-
+# If  you want to run any section without any side effects make sure to comment out the other sections
 '''
 Comparison Operators:
 == : Equals
@@ -96,6 +96,57 @@ if not age < 18:
 
 
 # Challenge: Use logical operators to check both the age and license status.
+
+
+# Suppose a == b this means we can set a to any number
+
+# Here i set a to 100
+a = 100
+
+# We know a is supposed to be the same as a in value so we can assign the value of b to the value of a
+# We could also just assign b to 100: b = 100
+b = a
+
+if a - b > 90:
+    print('one')
+else:
+    print('two')
+    print('done')
+
+# Next Slide
+
+#Scenario one
+original_price = 95
+#Scenario two - uncomment other original price values
+# original_price = 100
+#Scenario three - uncomment other original price values
+# original_price = 105
+
+discounted = 0
+if original_price > 100:
+    discounted = original_price - 20
+else:
+    discounted = original_price - 10
+print(discounted)
+
+def main():
+    # We ask for an input and set it to the variable named number
+    number = int(input("Enter a number between 1 and 100: "))
+    # if the number is greater or equal to one
+    if number >= 1:
+        # we know the number is greater or equal to one and check if its less then or equal to 100
+        if number <= 100:
+            print('in range')
+        else:
+            # The number was greater then 100
+            print('too big')
+    # we know its less then one
+    else:
+        print('too small')
+
+# I call the main function which runs the code- try commenting everything else out aside from the code in the main function. Now try running the code
+main()
+
 
 '''
 Summary:

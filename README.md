@@ -29,6 +29,7 @@ Northeastern 5001 notes
    - [Why Indentation Matters](#why-indentation-matters)
 
 7. [Troubleshooting](#troubleshooting)
+8. [Resources](#resources)
 
 
 # CS5001: Intensive Foundations of Computer Science
@@ -213,3 +214,11 @@ git branch -a
 ```
 ### Python interpreter issues? Ensure that you’ve selected the correct version of Python (3.x) in PyCharm's settings.
 That's it! You're all set to work through the modules. Be sure to check for any new branches and pull the latest changes before starting a new module. Happy coding!
+
+## Resources
+
+[Python Syntax Cheat Sheet.pdf](https://github.com/user-attachments/files/16944791/Python%2BSyntax%2BCheat%2BSheet%2BBooklet%2Bv2.pdf)
+
+[W3 website for Python](https://www.w3schools.com/python/)
+
+

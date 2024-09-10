@@ -221,4 +221,6 @@ That's it! You're all set to work through the modules. Be sure to check for any 
 
 [W3 website for Python](https://www.w3schools.com/python/)
 
+[Python Practice with Geeks for Geeks](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/?ref=shm)
+
 

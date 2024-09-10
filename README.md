@@ -83,11 +83,6 @@ By the end of this course, students will be able to:
 - **Late Submissions**: Assignments turned in late will incur a penalty unless prior arrangements are made.
 - **Academic Integrity**: Collaboration on assignments is encouraged, but the work you submit must be your own. Ensure that you properly credit any external sources.
 
-## Contact Information
-
-- **Instructor**: [Instructor Name]
-- **Office Hours**: [Times]
-- **Email**: [Instructor Email]
 
 Good luck, and let's have a great semester learning how to think and solve problems like computer scientists!
 

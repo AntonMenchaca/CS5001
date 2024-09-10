@@ -1,3 +1,5 @@
+### MODULE 1 ###
+
 # Variable Assignment
 x = 5  # Assigning the value 5 to variable 'x'
 name = "Alice"  # Assigning the string "Alice" to variable 'name'

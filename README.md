@@ -111,7 +111,8 @@ Each branch corresponds to a specific day or module in the course. To access dif
    First, clone this repo to your local machine if you haven't already. Run the following command in your terminal:
    ```bash
    git clone https://github.com/AntonMenchaca/CS5001.git
-   cd your-repo
+   cd cs5001
+   
 ## Switch to a Branch for the Module:
 Use the following command to change branches:
 

@@ -1,90 +1,63 @@
 # CS5001
-Northeastern 5001 notes
-# Table of Contents
 
-1. [CS5001: Intensive Foundations of Computer Science](#cs5001-intensive-foundations-of-computer-science)
-   - [Course Objectives](#course-objectives)
-   - [Getting Started](#getting-started)
-   - [Grading and Assessment](#grading-and-assessment)
-   - [Course Policies](#course-policies)
-   - [Contact Information](#contact-information)
+# Module 3: Loops, Iteration, and Control Flow
 
-2. [How to Read and Use This GitHub Repo](#how-to-read-and-use-this-github-repo)
-   - [Navigating the Repo](#navigating-the-repo)
-   - [Switch to a Branch for the Module](#switch-to-a-branch-for-the-module)
-   - [Pull the Latest Changes](#pull-the-latest-changes)
-   - [View the Module Content](#view-the-module-content)
+Welcome to **Module 3** of the CS5001 course! In this module, you will learn how to use loops and control flow to repeat actions and process data efficiently in Python. Mastering loops is essential for automating repetitive tasks and working with collections of data.
 
-3. [Running Python Code in PyCharm](#running-python-code-in-pycharm)
-   - [Open PyCharm](#open-pycharm)
-   - [Open the Project](#open-the-project)
-   - [Set Up the Python Interpreter](#set-up-the-python-interpreter)
-   - [Running the Code](#running-the-code)
+## Learning Objectives
 
-4. [Commenting and Uncommenting Code](#commenting-and-uncommenting-code)
-   - [Commenting](#commenting)
-   - [Uncommenting](#uncommenting)
-     
-5. [The Importance of Indentation and Spaces in Python Programming](#the-importance-of-indentation-and-spaces-in-python-programming)
-   - [Why Indentation Matters](#why-indentation-matters)
+By the end of Module 3, you will be able to:
+1. Understand and use **for loops** to iterate over sequences (like lists, strings, and ranges).
+2. Use **while loops** to repeat actions until a condition is met.
+3. Apply **break** and **continue** statements to control loop execution.
+4. Use **range()** to generate sequences of numbers for iteration.
+5. Write programs that process lists and strings using loops.
+6. Recognize and avoid common loop pitfalls (infinite loops, off-by-one errors).
 
-7. [Troubleshooting](#troubleshooting)
-8. [Resources](#resources)
+## Key Topics
 
+1. **For Loops**: Repeating actions for each item in a sequence.
+2. **While Loops**: Repeating actions as long as a condition is true.
+3. **Range Function**: Generating number sequences for iteration.
+4. **Break and Continue**: Exiting loops early or skipping to the next iteration.
+5. **Looping Over Strings and Lists**: Processing collections of data.
+6. **Nested Loops**: Using loops inside other loops for more complex tasks.
+7. **Common Loop Pitfalls**: Avoiding infinite loops and off-by-one errors.
 
-# CS5001: Intensive Foundations of Computer Science
+## Practice Materials for Module 3
 
-Welcome to **CS5001: Intensive Foundations of Computer Science** at Northeastern University. This course introduces the foundational concepts of computer science and programming using Python. Through this class, students will learn how to analyze problems, design solutions, and write efficient, well-documented code.
+This module includes several practice files to help you master loops and iteration:
 
-## Course Objectives
+### 📝 Practice Files
 
-By the end of this course, students will be able to:
+- **`module-3.py`** – Main learning content with examples, best practices, and mini-challenges
+- **`module-3-practice-questions.py`** – Practice questions organized by topic
+- **`module-3-quiz.py`** – Practice quiz to test your understanding
 
-1. **Analyze and Solve Large Problems**  
-   Develop a basic understanding of how to break down large problems into smaller, manageable components and implement efficient solutions using the Python programming language.
+###  How to Practice
 
-2. **Understand and Trace Code**  
-   Determine the functionality of code written by oneself and others through reading and tracing short segments of code.
+1. **Start with `module-3.py`** – Review the examples and complete the challenges
+2. **Work through `module-3-practice-questions.py`** – Complete all sections at your own pace
+3. **Take the quiz in `module-3-quiz.py`** – Test your knowledge with various question types
 
-3. **Write Readable and Documented Programs**  
-   Write correct, readable, and well-documented small-to-medium sized programs that others can easily understand and modify.
+###  Practice Question Categories
 
-4. **Limit Code Duplication**  
-   Use generalization for data and functions to minimize redundancy in code.
+- For Loops
+- While Loops
+- Range and Iteration
+- Loop Control (break, continue)
+- Looping Over Strings and Lists
+- Nested Loops
+- Real-World Scenarios & Challenges
 
-5. **Develop Effective Tests**  
-   Develop tests to thoroughly exercise your implemented code, ensuring robust software development and high-quality testing processes.
+###  Getting Help
 
-6. **Select Appropriate Data Types**  
-   Choose appropriate data types to represent information, including utilizing common Python library classes.
+- **No points or grades** – These are purely for practice and learning!
+- **Push your completed code** to GitHub when you're done
+- **Answer keys will be provided** after you submit your work
+- Practice as much as you need – repetition builds confidence!
 
-7. **Evaluate Efficiency of Code**  
-   Assess the impact of data structure and algorithm choices on both run time and memory usage, ensuring efficient program execution.
-
-## Getting Started
-
-1. **Programming Language**: Python 3.x
-2. **Prerequisites**: No prior programming experience is necessary.
-3. **Tools**: 
-   - Python IDE (PyCharm, VSCode, etc.)
-   - Version control with Git
-4. **Course Materials**: 
-   - Textbooks, lecture notes, and online resources will be provided.
-
-## Grading and Assessment
-
-1. **Homework Assignments** (40%) - Small coding exercises and problem sets.
-2. **Projects** (30%) - Larger programming projects that apply course concepts.
-3. **Quizzes** (10%) - Short assessments to test your understanding of the material.
-4. **Final Exam** (20%) - Cumulative exam covering key course topics.
-
-## Course Policies
-
-- **Late Submissions**: Assignments turned in late will incur a penalty unless prior arrangements are made.
-- **Academic Integrity**: Collaboration on assignments is encouraged, but the work you submit must be your own. Ensure that you properly credit any external sources.
-
-
-Good luck, and let's have a great semester learning how to think and solve problems like computer scientists!
+Remember: The goal is to understand the concepts, not to get everything perfect on the first try. Take your time and experiment with the code!
 
 # How to Read and Use This GitHub Repo
 

@@ -21,3 +21,37 @@ By the end of Module 2, you will be able to:
 4. **Multiway Conditionals**: Use `elif` to create multiple conditions to check in sequence.
 5. **Logical Operators**: Combine multiple Boolean expressions using `and`, `or`, and `not`.
 
+## Practice Materials for Module 2
+
+This module includes several practice files to help you master conditional logic:
+
+###  Practice Files
+
+- **`module-2.py`** – Main learning content with examples, best practices, and mini-challenges
+- **`module-2-practice-questions.py`** – Practice questions organized by topic
+- **`module-2-quiz.py`** – Practice quiz to test your understanding
+
+###  How to Practice
+
+1. **Start with `module-2.py`** – Review the examples and complete the challenges
+2. **Work through `module-2-practice-questions.py`** – Complete all sections at your own pace
+3. **Take the quiz in `module-2-quiz.py`** – Test your knowledge with various question types
+
+###  Practice Question Categories
+
+- Boolean Expressions & Comparison Operators
+- Conditional Statements
+- Nested If Statements
+- Multiway Conditionals
+- Logical Operators
+- Real-World Scenarios & Challenges
+
+###  Getting Help
+
+- **No points or grades** – These are purely for practice and learning!
+- **Push your completed code** to GitHub when you're done
+- **Answer keys will be provided** after you submit your work
+- Practice as much as you need – repetition builds confidence!
+
+Remember: The goal is to understand the concepts, not to get everything perfect on the first try. Take your time and experiment with the code!
+

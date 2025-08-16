@@ -148,6 +148,105 @@ def main():
 main()
 
 
+
+# =============================================================================
+#  BEST PRACTICES, TYPE HINTS, REAL-WORLD EXAMPLES
+# =============================================================================
+
+print("\n" + "="*50)
+print("EXPANDED MODULE 2 CONTENT")
+print("="*50)
+
+# Best Practices for Writing Conditionals
+print("\n--- BEST PRACTICES FOR CONDITIONALS ---")
+# 1. Use clear and descriptive variable names
+user_age = 21
+has_ticket = True
+
+# 2. Keep conditions simple and readable
+if user_age >= 18 and has_ticket:
+    print("Entry allowed.")
+else:
+    print("Entry denied.")
+
+# 3. Avoid deeply nested ifs when possible (use elif or combine conditions)
+score = 73
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+elif score >= 70:
+    grade = "C"
+elif score >= 60:
+    grade = "D"
+else:
+    grade = "F"
+print(f"Grade: {grade}")
+
+# 4. Use comments to clarify complex logic
+temperature = 45
+# Check for freezing
+if temperature <= 32:
+    print("Freezing!")
+# Check for cold
+elif temperature <= 50:
+    print("Cold!")
+# Otherwise, it's warm or hot
+else:
+    print("Warm or hot!")
+
+# Type Hints for Conditionals
+print("\n--- TYPE HINTS WITH CONDITIONALS ---")
+age: int = 17
+has_permission: bool = False
+
+if age >= 18 or has_permission:
+    print("Access granted.")
+else:
+    print("Access denied.")
+
+# Real-World Example: Movie Ticket Pricing
+print("\n--- REAL-WORLD EXAMPLE: MOVIE TICKET PRICING ---")
+customer_age: int = 65
+is_student: bool = False
+base_price: float = 12.00
+
+if customer_age < 12:
+    price = base_price * 0.5  # 50% off for kids
+elif customer_age >= 65:
+    price = base_price * 0.7  # 30% off for seniors
+elif is_student:
+    price = base_price * 0.8  # 20% off for students
+else:
+    price = base_price
+print(f"Ticket price: ${price:.2f}")
+
+# Real-World Example: Access Control
+print("\n--- REAL-WORLD EXAMPLE: ACCESS CONTROL ---")
+username: str = "admin"
+password: str = "letmein"
+
+if username == "admin" and password == "letmein":
+    print("Access granted!")
+else:
+    print("Access denied!")
+
+# Challenge: Write a program that checks if a user can rent a car.
+# - Must be at least 21 years old and have a valid license (has_license = True)
+# - Print 'Rental approved.' or 'Rental denied.'
+
+# Challenge: Write a program that determines the shipping cost:
+# - If the order total is $50 or more, shipping is free.
+# - If the order total is less than $50, shipping is $5.
+# - Use a variable 'order_total'. Print the shipping cost.
+
+# Challenge: Write a program that checks if a year is a leap year using type hints and prints the result.
+
+print("\n" + "="*50)
+print("END OF EXPANDED MODULE 2")
+print("Great job learning Python conditionals!")
+print("="*50)
+
 '''
 Summary:
 Boolean expressions evaluate to True or False using comparison operators.

@@ -1,62 +1,64 @@
-# CS5001
-Northeastern 5001 notes
-# Table of Contents
+# Module 4: Functions, Parameters, Return Values, and Scope
 
-1. [CS5001: Intensive Foundations of Computer Science](#cs5001-intensive-foundations-of-computer-science)
-   - [Course Objectives](#course-objectives)
-   - [Getting Started](#getting-started)
-   - [Grading and Assessment](#grading-and-assessment)
-   - [Course Policies](#course-policies)
-   - [Contact Information](#contact-information)
+Welcome to **Module 4** of the CS5001 course! In this module, you will learn how to write and use functions in Python. Functions help you organize code, avoid repetition, and make your programs easier to read and maintain.
 
-2. [How to Read and Use This GitHub Repo](#how-to-read-and-use-this-github-repo)
-   - [Navigating the Repo](#navigating-the-repo)
-   - [Switch to a Branch for the Module](#switch-to-a-branch-for-the-module)
-   - [Pull the Latest Changes](#pull-the-latest-changes)
-   - [View the Module Content](#view-the-module-content)
+## Learning Objectives
 
-3. [Running Python Code in PyCharm](#running-python-code-in-pycharm)
-   - [Open PyCharm](#open-pycharm)
-   - [Open the Project](#open-the-project)
-   - [Set Up the Python Interpreter](#set-up-the-python-interpreter)
-   - [Running the Code](#running-the-code)
+By the end of Module 4, you will be able to:
+1. Define and call functions in Python.
+2. Use parameters and arguments to pass data to functions.
+3. Return values from functions and use them in your code.
+4. Understand the difference between local and global variables (scope).
+5. Use default and keyword arguments for flexibility.
+6. Write functions that return multiple values.
 
-4. [Commenting and Uncommenting Code](#commenting-and-uncommenting-code)
-   - [Commenting](#commenting)
-   - [Uncommenting](#uncommenting)
-     
-5. [The Importance of Indentation and Spaces in Python Programming](#the-importance-of-indentation-and-spaces-in-python-programming)
-   - [Why Indentation Matters](#why-indentation-matters)
+## Key Topics
 
-7. [Troubleshooting](#troubleshooting)
-8. [Resources](#resources)
+1. **Defining and Calling Functions**: Grouping code for reuse and clarity.
+2. **Parameters and Arguments**: Passing data into functions.
+3. **Return Values**: Sending data back from functions.
+4. **Scope**: Local vs. global variables.
+5. **Default and Keyword Arguments**: Flexible function calls.
+6. **Returning Multiple Values**: Using tuples to return more than one result.
+7. **Real-World Examples**: Practical uses of functions in programs.
+
+## Practice Materials for Module 4
+
+This module includes several practice files to help you master functions and scope:
+
+###  Practice Files
+
+- **`module-4.py`** – Main learning content with examples, best practices, and mini-challenges
+- **`module-4-practice-questions.py`** – Practice questions organized by topic
+- **`module-4-quiz.py`** – Practice quiz to test your understanding
+
+###  How to Practice
+
+1. **Start with `module-4.py`** – Review the examples and complete the challenges
+2. **Work through `module-4-practice-questions.py`** – Complete all sections at your own pace
+3. **Take the quiz in `module-4-quiz.py`** – Test your knowledge with various question types
+
+###  Practice Question Categories
+
+- Defining and Calling Functions
+- Parameters and Arguments
+- Return Values
+- Scope (Local vs Global)
+- Default and Keyword Arguments
+- Returning Multiple Values
+- Real-World Scenarios & Challenges
+
+###  Getting Help
+
+- **No points or grades** – These are purely for practice and learning!
+- **Push your completed code** to GitHub when you're done
+- **Answer keys will be provided** after you submit your work
+- Practice as much as you need – repetition builds confidence!
+
+Remember: The goal is to understand the concepts, not to get everything perfect on the first try. Take your time and experiment with the code!
 
 
-# CS5001: Intensive Foundations of Computer Science
 
-Welcome to **CS5001: Intensive Foundations of Computer Science** at Northeastern University. This course introduces the foundational concepts of computer science and programming using Python. Through this class, students will learn how to analyze problems, design solutions, and write efficient, well-documented code.
-
-## Course Objectives
-
-By the end of this course, students will be able to:
-
-1. **Analyze and Solve Large Problems**  
-   Develop a basic understanding of how to break down large problems into smaller, manageable components and implement efficient solutions using the Python programming language.
-
-2. **Understand and Trace Code**  
-   Determine the functionality of code written by oneself and others through reading and tracing short segments of code.
-
-3. **Write Readable and Documented Programs**  
-   Write correct, readable, and well-documented small-to-medium sized programs that others can easily understand and modify.
-
-4. **Limit Code Duplication**  
-   Use generalization for data and functions to minimize redundancy in code.
-
-5. **Develop Effective Tests**  
-   Develop tests to thoroughly exercise your implemented code, ensuring robust software development and high-quality testing processes.
-
-6. **Select Appropriate Data Types**  
-   Choose appropriate data types to represent information, including utilizing common Python library classes.
 
 7. **Evaluate Efficiency of Code**  
    Assess the impact of data structure and algorithm choices on both run time and memory usage, ensuring efficient program execution.
@@ -218,5 +220,3 @@ That's it! You're all set to work through the modules. Be sure to check for any 
 [W3 website for Python](https://www.w3schools.com/python/)
 
 [Python Practice with Geeks for Geeks](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/?ref=shm)
-
-

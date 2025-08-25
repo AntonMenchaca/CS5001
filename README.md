@@ -1,98 +1,62 @@
-# CS5001
-Northeastern 5001 notes
-# Table of Contents
 
-1. [CS5001: Intensive Foundations of Computer Science](#cs5001-intensive-foundations-of-computer-science)
-   - [Course Objectives](#course-objectives)
-   - [Getting Started](#getting-started)
-   - [Grading and Assessment](#grading-and-assessment)
-   - [Course Policies](#course-policies)
-   - [Contact Information](#contact-information)
+# Module 6: Dictionaries, Key-Value Pairs, and Dictionary Methods
 
-2. [How to Read and Use This GitHub Repo](#how-to-read-and-use-this-github-repo)
-   - [Navigating the Repo](#navigating-the-repo)
-   - [Switch to a Branch for the Module](#switch-to-a-branch-for-the-module)
-   - [Pull the Latest Changes](#pull-the-latest-changes)
-   - [View the Module Content](#view-the-module-content)
+Welcome to **Module 6** of the CS5001 course! In this module, you will learn how to use dictionaries to store, access, and process data using key-value pairs in Python. Dictionaries are essential for representing structured data and fast lookups.
 
-3. [Running Python Code in PyCharm](#running-python-code-in-pycharm)
-   - [Open PyCharm](#open-pycharm)
-   - [Open the Project](#open-the-project)
-   - [Set Up the Python Interpreter](#set-up-the-python-interpreter)
-   - [Running the Code](#running-the-code)
+## Learning Objectives
 
-4. [Commenting and Uncommenting Code](#commenting-and-uncommenting-code)
-   - [Commenting](#commenting)
-   - [Uncommenting](#uncommenting)
-     
-5. [The Importance of Indentation and Spaces in Python Programming](#the-importance-of-indentation-and-spaces-in-python-programming)
-   - [Why Indentation Matters](#why-indentation-matters)
+By the end of Module 6, you will be able to:
+1. Create and use dictionaries to store key-value pairs.
+2. Access, add, and remove items using keys.
+3. Loop over dictionaries to process keys and values.
+4. Use common dictionary methods for data manipulation.
+5. Work with nested dictionaries for complex data.
+6. Apply dictionaries to real-world problems like word counting.
 
-7. [Troubleshooting](#troubleshooting)
-8. [Resources](#resources)
+## Key Topics
 
+1. **Dictionary Basics**: Creating and accessing dictionaries.
+2. **Adding and Removing Items**: Modifying dictionary contents.
+3. **Looping Over Dictionaries**: Processing keys and values.
+4. **Common Dictionary Methods**: Using keys(), values(), items(), get(), etc.
+5. **Nested Dictionaries**: Representing complex data structures.
+6. **Real-World Examples**: Using dictionaries for word counts and more.
 
-# CS5001: Intensive Foundations of Computer Science
+## Practice Materials for Module 6
 
-Welcome to **CS5001: Intensive Foundations of Computer Science** at Northeastern University. This course introduces the foundational concepts of computer science and programming using Python. Through this class, students will learn how to analyze problems, design solutions, and write efficient, well-documented code.
+This module includes several practice files to help you master dictionaries and their operations:
 
-## Course Objectives
+###  Practice Files
 
-By the end of this course, students will be able to:
+- **`module-6.py`** – Main learning content with examples, best practices, and mini-challenges
+- **`module-6-practice-questions.py`** – Practice questions organized by topic
+- **`module-6-quiz.py`** – Practice quiz to test your understanding
 
-1. **Analyze and Solve Large Problems**  
-   Develop a basic understanding of how to break down large problems into smaller, manageable components and implement efficient solutions using the Python programming language.
+###  How to Practice
 
-2. **Understand and Trace Code**  
-   Determine the functionality of code written by oneself and others through reading and tracing short segments of code.
+1. **Start with `module-6.py`** – Review the examples and complete the challenges
+2. **Work through `module-6-practice-questions.py`** – Complete all sections at your own pace
+3. **Take the quiz in `module-6-quiz.py`** – Test your knowledge with various question types
 
-3. **Write Readable and Documented Programs**  
-   Write correct, readable, and well-documented small-to-medium sized programs that others can easily understand and modify.
+### Practice Question Categories
 
-4. **Limit Code Duplication**  
-   Use generalization for data and functions to minimize redundancy in code.
+- Dictionary Basics
+- Adding and Removing Items
+- Looping Over Dictionaries
+- Common Dictionary Methods
+- Nested Dictionaries
+- Real-World Scenarios & Challenges
 
-5. **Develop Effective Tests**  
-   Develop tests to thoroughly exercise your implemented code, ensuring robust software development and high-quality testing processes.
+###  Getting Help
 
-6. **Select Appropriate Data Types**  
-   Choose appropriate data types to represent information, including utilizing common Python library classes.
+- **No points or grades** – These are purely for practice and learning!
+- **Push your completed code** to GitHub when you're done
+- **Answer keys will be provided** after you submit your work
+- Practice as much as you need – repetition builds confidence!
 
-7. **Evaluate Efficiency of Code**  
-   Assess the impact of data structure and algorithm choices on both run time and memory usage, ensuring efficient program execution.
-
-## Getting Started
-
-1. **Programming Language**: Python 3.x
-2. **Prerequisites**: No prior programming experience is necessary.
-3. **Tools**: 
-   - Python IDE (PyCharm, VSCode, etc.)
-   - Version control with Git
-4. **Course Materials**: 
-   - Textbooks, lecture notes, and online resources will be provided.
-
-## Grading and Assessment
-
-1. **Homework Assignments** (40%) - Small coding exercises and problem sets.
-2. **Projects** (30%) - Larger programming projects that apply course concepts.
-3. **Quizzes** (10%) - Short assessments to test your understanding of the material.
-4. **Final Exam** (20%) - Cumulative exam covering key course topics.
-
-## Course Policies
-
-- **Late Submissions**: Assignments turned in late will incur a penalty unless prior arrangements are made.
-- **Academic Integrity**: Collaboration on assignments is encouraged, but the work you submit must be your own. Ensure that you properly credit any external sources.
+Remember: The goal is to understand the concepts, not to get everything perfect on the first try. Take your time and experiment with the code!
 
 
-Good luck, and let's have a great semester learning how to think and solve problems like computer scientists!
-
-# How to Read and Use This GitHub Repo
-
-Welcome to the course repository! This repo is organized to guide you through the modules of **CS5001: Intensive Foundations of Computer Science**. Each module has its own branch, and every branch contains notes, examples, and challenges for that specific module. Follow this guide to effectively navigate through the branches, pull down the repo, and run Python code on PyCharm.
-
-## Navigating the Repo
-
-Each branch corresponds to a specific day or module in the course. To access different modules:
 
 # How to Read and Use This GitHub Repo
 
@@ -218,5 +182,3 @@ That's it! You're all set to work through the modules. Be sure to check for any 
 [W3 website for Python](https://www.w3schools.com/python/)
 
 [Python Practice with Geeks for Geeks](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/?ref=shm)
-
-
